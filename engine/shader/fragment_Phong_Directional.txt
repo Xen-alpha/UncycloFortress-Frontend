@@ -1,0 +1,39 @@
+precision mediump float;
+
+// Light Source Info
+struct Light{
+  vec3 direction;
+  vec3 diffusionColor;
+  vec3 specularColor;
+};
+uniform Light u_lightsource; // instance for structure 'Light'
+
+// -- in-shader global variables --
+uniform vec3 u_Ambient; // ambient light vector
+uniform float u_Reflective; // reflection power
+uniform vec3 u_Cameraposition; // cam position
+uniform sampler2D u_Texture; // Texture
+
+// -- interactive variables(in/out variables) --
+// In-only
+varying vec3 vs_pos; // vertex position
+varying vec4 vs_color; // processed color from vertex shader
+varying vec3 fs_normal; // normal vector can be processed in vertex shader
+// Out-only
+varying vec4 outColor; // result color
+// Interactive
+
+// Shader
+void main(){
+  // normalized significant vectors
+  vec3 N_normalized = normalize(fs_normal); // normal vector
+  vec3 LV_normalized = normalize(-u_lightsource.direction); // light source
+  vec3 CAM_normalized = normalize(u_Camera_position - vs_pos); // camera vector
+  vec3 RF_normalized = normalize(reflect(-LV_normalized, N_Normalized)); // reflection vector
+
+  float LV_N_dot = max(dot(N_normalized, LV_normalized), 0.0);
+  vec3 diffuse_result = LV_N_dot * vs_color;
+  // TODO: Ambient + Diffuse + Specular
+  vec3 result = u_Ambient;
+
+}

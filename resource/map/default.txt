@@ -1,0 +1,26 @@
+25 45 1
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A
+A F F F F F P F F F F F F F F F F F F A F F F F F F F F F A F F F F F F F F F F F F F F W
+A F F F F F P F F F F F F F F F F F F W F F F F F F F F F W F F F F F F F F F F F F F F W
+A F F R F F A A A F F F F F F F F F F F F F F F F F F F F F F F F F F F A A A A A F F F W
+A F F F F H A F F F F F F F F F F F F W F F F F H F F F F W F F F F F F F F F F W F F F W
+A F F F H H A F F F F F F F F W A A A A A A A A A A A A A W F F F F F F F F F F W F F F W
+A I I A A A A F F F F F F F F F F F F F F F F F F F F F F W F F F F F F F F F F W F F F W
+A F F A F F F F F F F F F F F W F F F A A A A A A A F F F W W W W W W F F F F F W F F F W
+A F F A F F F F F F F A A A A W F F F F F F F F F F F F F F F F F F F F F F F F F F F F W
+A F F F F F F F F F F F F F F W F F F F F F F F F F F F F F F F F F F F F F F F F F F F W
+A F F F F F F F F F F F F F F W W W W W F F F F F W W W F F F F F F A W W W W H F F F F W
+W W W W F F F F F F A F F F F F F W F F F F F F F F F W F F F F F F A F F F F F F F F F W
+W F F F F F F F F F A F F F F F F F F F F F T F F F F F F F F F F F Q F F F F F F F F F W
+W F F F F F F F F F Q F F F F F F W F F F F F F F F F W F F F F F F Q F F F F F F W W W W
+W F F F F H W W W W Q F F F F F F W W W F F F F F W W W W W F F F F F F F F F F F F F F Q
+W F F F F F F F F F F F F F F F F F F F F F F F F F F F F W F F F F F F F F F F F F F F Q
+W F F F F F F F F F F F F F F F F F F F F F F F F F F F F W Q Q Q Q F F F F F F F Q F F Q
+W F F F W F F F F F W W W W W W F F F Q Q Q Q Q Q Q F F F W F F F F F F F F F F F Q F F Q
+W F F F W F F F F F F F F F F W F F F F F F F F F F F F F F F F F F F F F F Q Q Q Q Z Z Q
+W F F F W F F F F F F F F F F W Q Q Q Q Q Q Q Q Q Q Q Q Q W F F F F F F F F Q H H F F F Q
+W F F F W F F F F F F F F F F W F F F F H F F F F W F F F F F F F F F F F F Q H F F F F Q
+W F F F Q Q Q Q Q F F F F F F F F F F F F F F F F F F F F F F F F F F F Q Q Q F F B F F Q
+W F F F F F F F F F F F F F F W F F F F F F F F F W F F F F F F F F F F F F C F F F F F Q
+W F F F F F F F F F F F F F F Q F F F F F F F F F Q F F F F F F F F F F F F C F F F F F Q
+Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q
